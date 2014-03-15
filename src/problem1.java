@@ -1,4 +1,4 @@
-**public class problem1 {**
+public class problem1 {
     public static void main(String[] args) {
         int sum = 0;
 
@@ -10,4 +10,5 @@
         System.out.println("Sum of all multiples of 3 or 5 below 1000: " + sum);
     }
 }
+
 
