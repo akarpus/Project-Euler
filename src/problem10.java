@@ -1,6 +1,6 @@
 public class problem10 {
     public static void main(String[] args) {
-        long sum = 0L;   // begin sum with addition of prime #'s 2 & 3
+        long sum = 0L;  
         int i = 2;
         boolean result;
         
@@ -12,6 +12,9 @@ public class problem10 {
         }
         System.out.println("Sum of all primes below two million: " + sum);
     }
+    /* Function not as efficient as I wanted but
+       gets the job done of confirming if a number
+       is prime or not */
     public static boolean isPrime(int number){
         int i = 1;
         boolean result = false;
@@ -21,7 +24,6 @@ public class problem10 {
             if (i == number)
             {
                 result = true;
-                // System.out.println(number);
                 break;
             }
             if ((number % i == 0) && (i != 1))
