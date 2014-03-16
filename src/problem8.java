@@ -39,12 +39,4 @@ public class problem8 {
           }
           System.out.println("The largest product of five consecutive ints is: " + largestProduct);
       } 
-  }
-
-
-
-
-
-
-
-
+}
